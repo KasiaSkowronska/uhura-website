@@ -8,6 +8,9 @@ import logoUW from '../assets/uw-pl.png';
 import logoIUW from '../assets/iuw-pl.png';
 import logoWUM from '../assets/wum-pl.png';
 
+import planet from '../assets/planet-earth.svg';
+import speaker from '../assets/speaking.svg';
+import timer from '../assets/timer.svg';
 
 class Home extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -86,6 +89,23 @@ class Home extends React.Component { // eslint-disable-line react/prefer-statele
             <p>
               Their capabilities are coordinated by our program, UhuraOs, that reads the movements of face muscles, and then processess them into intonation, which is then applied to the words and played by the speaker. What is more, we include the voice banking technology, meaning that Uhura speaks with the Patient’s voice from before the surgery.
             </p>
+            </div>
+          </section>
+          <section className="benefit-section">
+            {/*<h2 style={{display: 'block', width: "100%"}}>A patient can use Uhura</h2>*/}
+            <div className="benefits">
+              <div className="benefit-item">
+                <div className="benefit-img"> <img src={planet}/> </div>
+                <span className="benefit-caption">anytime & anywhere</span>
+              </div>
+              <div className="benefit-item">
+                <div className="benefit-img"> <img src={timer}/> </div>
+                <span className="benefit-caption">instantly</span>
+              </div>
+              <div className="benefit-item">
+                <div className="benefit-img"> <img src={speaker}/> </div>
+                <span className="benefit-caption">using his own voice with identity and emotion</span>
+              </div>
             </div>
           </section>
         </main>
