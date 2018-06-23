@@ -61,6 +61,9 @@ class Home extends React.Component { // eslint-disable-line react/prefer-statele
                 upper air passages.
               </p>
               <p className="big emph">Many of them lose their ability to speak.</p>
+              <div className="alert alert-warning" role="alert">
+                A simple secondary alert—check it out!
+              </div>
             </div>
           </section>
           <section>
